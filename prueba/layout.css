@@ -1,0 +1,25 @@
+/*Sergio Salgueiro Monforte UO276843 */
+
+/*Especificidad: 001*/
+header {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*Especificidad: 001*/
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-around; 
+}
+
+/*Especificidad: 001*/
+body{
+    display: flex;
+    flex-direction: column;
+
+
+}

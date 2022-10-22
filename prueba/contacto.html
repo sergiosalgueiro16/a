@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Sergio Salgueiro" />
+    <meta name ="description" content ="formulario para opinion" />
+    <meta name ="keywords" content ="formulario,datos" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+
+    <title>Node js</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+
+</head>
+
+<body>
+    <header>
+        <img src="multimedia/logoNode.png" alt="Imagen del logo de Node js" />
+        <h1>Node js</h1>
+        <nav>
+            <a tabindex="1" accesskey="I" href="index.html">Inicio</a>
+            <a tabindex="2" accesskey="D" href="ventajasYDesventajas.html">Ventajas y Desventajas</a>
+            <a tabindex="3" accesskey="V" href="versiones.html">Versiones</a>
+            <a tabindex="4" accesskey="C" href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+    <h2>Formulario de asistencia</h2>
+    <form name="datos">
+    <p><label for="email">Email:</label> <input id="email" type="email" /> </p>
+    <p><label for="nombre">Nombre:</label> <input id="nombre" type="text" /> </p>
+    <p><label for="apellido">Apellido:</label> <input id="apellido" type="text" /> </p>
+    <p><label for="nacimiento">Fecha de nacimiento:</label> <input id="nacimiento" type="date" /> </p>
+    <p><label for="edad">Edad:</label> <input id="edad" type="number" /> </p>
+    <p><label for="phone">Phone:</label> <input id="phone" type="tel" /> </p>
+    <fieldset>
+        <legend>Selecciona una opción</legend>
+        <p><input name=option type="radio" checked>Opinión
+        <input name=option type="radio" >Duda
+        <input name=option type="radio" >Recomendación
+        <input name=option type="radio" >Error</p>
+    </fieldset>
+    <p><label for="comentario" title="comentario">Escriba aquí su comentario  <textarea maxlength="300" id="comentario" ></textarea></label>
+    <p><label for="puntuacion">Puntue el sitio</label> <input id="puntuacion" value="0" type="range" /> </p> 
+    <input type="submit" value="Enviar" />
+    </form>
+    
+</main>
+<footer>
+    <p>Autor: Sergio Salgueiro Monforte</p>
+    <p>Correo de contacto: <a href="mailto:uo276843@uniovi.es">uo276843@uniovi.es</a></p>
+</footer>
+</body>
+</html>
